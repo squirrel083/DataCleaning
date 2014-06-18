@@ -9,7 +9,7 @@ output: html_document
 
 This script reads in the test and training sets of data from the Human Activity Recognition Using Smartphones Dataset, combines the two data sets, and aggregates over the means of the triple subject-activity-measurement
 
-The script sequentially does the following:
+The script (run_analysis.R) sequentially does the following:
 
 1. Read in the testing, training, and subject files
 2. First binds the columns of the subject IDs with the activity labels and the feature vectors for the test set
